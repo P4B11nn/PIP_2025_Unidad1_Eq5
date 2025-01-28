@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "P07_PromedioNumeros-Load.ui"
+qtCreatorFile = "P08_PromedioNumeros-LoadV2.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -19,6 +19,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         contenido = archivo.readlines()
         datos = [int(x) for x in contenido]
         print(datos)
+        #Tarea EJ 11--En lugar de sobreescribir, concatenar
+        self.calificaciones = datos
+        self.promedio()
+        self.txt_lista_calificaciones.setText(str(self.calificaciones))
+
 
     def agregar(self):
         calificacion = int(self.txt_calificaciones.text())
@@ -26,6 +31,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.promedio()
         # Tarea EJ 12 Asegurarse de que solo se pueda cargar hasta antes de
         # Agregar la primera calificacion  -----> enables y o codigo
+        self.txt_lista_calificaciones.setText(str(self.calificaciones))
 
 
     def guardar(self):
