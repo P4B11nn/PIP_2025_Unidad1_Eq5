@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "untitled.ui"  #Nombre del archivo aqui
+qtCreatorFile = "P00_Intro.ui"  #Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -11,9 +11,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
     #Area de los Slots
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = MyApp()
     window.show()
     sys.exit(app.exec_())
-

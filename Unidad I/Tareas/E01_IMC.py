@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P01_IMC.ui"
+qtCreatorFile = "E01_IMC.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):

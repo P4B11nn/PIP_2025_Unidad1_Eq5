@@ -2,7 +2,7 @@ import sys
 from os.path import split
 
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "P07_Promedio.ui"  #Nombre del archivo aqui
+qtCreatorFile = "E07_Promedio.ui"  #Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):

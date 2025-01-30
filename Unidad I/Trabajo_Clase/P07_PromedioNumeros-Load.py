@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "P08_PromedioNumeros-LoadV2.ui"
+qtCreatorFile = "P07_PromedioNumeros-Load.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -15,15 +15,10 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
     #Area de los Slots
     def cargar(self):
-        archivo = open(r"Archivos\calificaciones.csv")
+        archivo = open(r"../Archivos/calificaciones.csv")
         contenido = archivo.readlines()
         datos = [int(x) for x in contenido]
         print(datos)
-        #Tarea EJ 11--En lugar de sobreescribir, concatenar
-        self.calificaciones = datos
-        self.promedio()
-        self.txt_lista_calificaciones.setText(str(self.calificaciones))
-
 
     def agregar(self):
         calificacion = int(self.txt_calificaciones.text())
@@ -31,12 +26,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.promedio()
         # Tarea EJ 12 Asegurarse de que solo se pueda cargar hasta antes de
         # Agregar la primera calificacion  -----> enables y o codigo
-        self.txt_lista_calificaciones.setText(str(self.calificaciones))
 
 
     def guardar(self):
         # Tarea como comprobar que el archivo existe
-        archivo = open(r"Archivos\calificaciones.csv","w")
+        archivo = open(r"../Archivos/calificaciones.csv", "w")
         for c in self.calificaciones:
             archivo.write(str(c) + "\n")
         archivo.flush()

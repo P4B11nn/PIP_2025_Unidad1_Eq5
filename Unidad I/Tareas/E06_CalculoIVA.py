@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "P06_CalculoIVA.ui"
+qtCreatorFile = "E06_CalculoIVA.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):

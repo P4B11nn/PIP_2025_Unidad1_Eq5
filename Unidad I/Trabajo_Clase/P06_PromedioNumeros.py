@@ -22,7 +22,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def guardar(self):
         # Tarea COMO COMPRUEBO QUE EL ARCHIVO EXISTE
-        archivo = open(r"Archivos\calificaciones.csv","w")
+        archivo = open(r"../Archivos/calificaciones.csv", "w")
         for c in self.calificaciones:
             archivo.write(str(c) + "\n")
         archivo.flush()

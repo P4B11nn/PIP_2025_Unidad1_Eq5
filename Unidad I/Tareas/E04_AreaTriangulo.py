@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic,QtWidgets
-qtCreatorFile = "P02_Conversion_Metros_a_Pies.ui"  #Nombre del archivo aqui
+qtCreatorFile = "E04_AreaTriangulo.ui"  #Nombre del archivo aqui
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -8,27 +8,29 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
         # Area de los Signals
-        self.btn_calcular.clicked.connect(self.metros_a_pies)
-
+        self.btn_calcularArea_Rec.clicked.connect(self.area_triangulo)
 
 
     #Area de los Slots
-    def metros_a_pies(self):
+    def area_triangulo(self):
         try:
-            metros = float(self.txt_metros.text())
-            pies = metros * 3.28084
-            self.msj(f"{pies:.2f} pies")
+           base = float(self.txt_base_triangulo.text())
+           altura = float(self.txt_altura_triangulo.text())
+           area = (base * altura) / 2
+           self.msj(f"Área: {area:.2f}")
         except ValueError:
-            self.msj("Por favor, ingresa un número válido en metros.")
+          self.msj("Por favor, ingresa valores numéricos válidos.")
 
 
     def msj(self, txt):
-       m = QtWidgets.QMessageBox()
-       m.setText(txt)
-       m.exec()
+     m = QtWidgets.QMessageBox()
+     m.setText(txt)
+     m.exec()
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = MyApp()
     window.show()
     sys.exit(app.exec_())
+
+
