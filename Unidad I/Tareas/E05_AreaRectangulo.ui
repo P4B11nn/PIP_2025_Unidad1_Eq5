@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>554</width>
-    <height>467</height>
+    <width>415</width>
+    <height>407</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,10 +20,10 @@
    <widget class="QPushButton" name="btn_calcular_AreaRec">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>350</y>
-      <width>201</width>
-      <height>51</height>
+      <x>120</x>
+      <y>280</y>
+      <width>191</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -33,10 +33,19 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:black;
-color: cyan;
-border-radius: 20px;
-border: 3px solid cyan</string>
+     <string notr="true">QPushButton:pressed {
+    background-color: #003f7f; 
+    border: 2px solid #002f5f; 
+}
+
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #0056b3;
+    padding: 5px 10px;
+  
+}</string>
     </property>
     <property name="text">
      <string>Calcular Area</string>
@@ -45,8 +54,8 @@ border: 3px solid cyan</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>80</y>
+      <x>110</x>
+      <y>60</y>
       <width>161</width>
       <height>21</height>
      </rect>
@@ -69,8 +78,8 @@ border: 3px solid cyan</string>
    <widget class="QLineEdit" name="txt_base_rectangulo">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>110</y>
+      <x>110</x>
+      <y>90</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -86,8 +95,10 @@ border: 3px solid cyan</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:white;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
+border: 2px solid #0056b3;
+
+
 </string>
     </property>
     <property name="text">
@@ -100,8 +111,8 @@ border: 2px solid black;
    <widget class="QLineEdit" name="txt_altura_rectangulo">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>240</y>
+      <x>110</x>
+      <y>220</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -117,8 +128,10 @@ border: 2px solid black;
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:white;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
+border: 2px solid #0056b3;
+
+
 </string>
     </property>
     <property name="text">
@@ -134,8 +147,8 @@ border: 2px solid black;
    <widget class="QLabel" name="txt">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>200</y>
+      <x>110</x>
+      <y>180</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -156,38 +169,13 @@ border: 2px solid black;
      <string>Ingresa la Altura:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lbl_resultado_area">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>300</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>554</width>
+     <width>415</width>
      <height>21</height>
     </rect>
    </property>

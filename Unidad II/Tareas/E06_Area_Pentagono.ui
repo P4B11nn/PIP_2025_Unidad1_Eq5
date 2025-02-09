@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>306</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cálculo del Área de un Pentágono</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(181, 255, 164);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="input_apotema">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 8pt &quot;Segoe Script&quot;;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Apotema</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_perimetro">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 8pt &quot;Segoe Script&quot;;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Perímetro</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_instruccion">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <pointsize>12</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Introduce los valores:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_resultado">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Resultado:</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Slider_apotema">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QSlider::groove:horizontal {
+            border: 1px solid #999999;
+            height: 8px;
+            background: white;
+            margin: 2px 0;
+        }
+        QSlider::handle:horizontal {
+            background: rgb(0, 170, 0);
+            border: 1px solid #5c5c5c;
+            width: 18px;
+            margin: -2px 0;
+            border-radius: 3px;
+        }</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Slider_perimetro">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>50</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QSlider::groove:horizontal {
+            border: 1px solid #999999;
+            height: 8px;
+            background: white;
+            margin: 2px 0;
+        }
+        QSlider::handle:horizontal {
+            background: rgb(0, 170, 0);
+            border: 1px solid #5c5c5c;
+            width: 18px;
+            margin: -2px 0;
+            border-radius: 3px;
+        }</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_resultado_area">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>414</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>498</width>
-    <height>387</height>
+    <width>500</width>
+    <height>259</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,9 +21,9 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>240</y>
+      <y>140</y>
       <width>161</width>
-      <height>61</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -33,10 +33,19 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:rgb(170, 85, 0);
-color: white;
-border-radius: 20px;
-border: 3px solid white</string>
+     <string notr="true">QPushButton:pressed {
+    background-color: #003f7f; 
+    border: 2px solid #002f5f; 
+}
+
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #0056b3;
+    padding: 5px 10px;
+  
+}</string>
     </property>
     <property name="text">
      <string>Convertir</string>
@@ -46,7 +55,7 @@ border: 3px solid white</string>
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>90</y>
+      <y>40</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -70,7 +79,7 @@ border: 3px solid white</string>
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>130</y>
+      <y>80</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -86,8 +95,10 @@ border: 3px solid white</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:white;
-border-radius: 20px;
-border: 2px solid black;
+border-radius: 10px;
+border: 2px solid #0056b3;
+
+
 </string>
     </property>
     <property name="text">
@@ -97,51 +108,13 @@ border: 2px solid black;
      <set>Qt::AlignHCenter|Qt::AlignTop</set>
     </property>
    </widget>
-   <widget class="QLabel" name="lbl_resultado_metros">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>200</y>
-      <width>91</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>200</y>
-      <width>121</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Cantidad en pies:</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>498</width>
+     <width>500</width>
      <height>21</height>
     </rect>
    </property>

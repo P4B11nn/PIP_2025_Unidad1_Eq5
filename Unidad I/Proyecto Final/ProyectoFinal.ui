@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>945</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MingLiU_HKSCS-ExtB</family>
+    <pointsize>16</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_agregar">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>450</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+    color: rgb(0, 255, 255);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 255, 255);
+    padding: 10px;
+    font: bold 15pt &quot;OCR A Extended&quot;;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+ QPushButton:hover {
+                background-color: cyan;
+                color: white;
+            }
+            QPushButton:pressed {
+                background-color: cyan;
+                color: white;
+            }</string>
+    </property>
+    <property name="text">
+     <string>AGREGAR</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_calificacion">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+ 
+font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+   
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Valor:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_max">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>100</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+      font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_guardar">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>450</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+    color: rgb(0, 255, 255);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 255, 255);
+    padding: 10px;
+    font: bold 15pt &quot;OCR A Extended&quot;;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+ QPushButton:hover {
+                background-color: cyan;
+                color: white;
+            }
+            QPushButton:pressed {
+                background-color: cyan;
+                color: white;
+            }</string>
+    </property>
+    <property name="text">
+     <string>GUARDAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cargar">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>450</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+    color: rgb(0, 255, 255);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 255, 255);
+    padding: 10px;
+    font: bold 15pt &quot;OCR A Extended&quot;;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+ QPushButton:hover {
+                background-color: cyan;
+                color: white;
+            }
+            QPushButton:pressed {
+                background-color: cyan;
+                color: white;
+            }</string>
+    </property>
+    <property name="text">
+     <string>CARGAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>190</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Valores Ingresados&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_lista_calificaciones">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>250</y>
+      <width>271</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+ font:  bold 14pt &quot;OCR A Extended&quot;;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Valor menor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>40</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Varianza&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Valor Mayor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>190</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Mediana&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>190</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Moda&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>190</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+	font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Media&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_min">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+      font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_varianza">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>100</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+      font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_promedio">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+ 
+	font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_moda">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+ 
+	font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_mediana">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>250</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+ 
+	font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>40</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(25, 25, 25));
+font: 8pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:696; color:#ffffff;&quot;&gt;Desviacion Estandar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lbl_desviacion">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>100</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+      font:  bold 12pt &quot;OCR A Extended&quot;;
+    color: rgb(0, 255, 255);
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>945</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
