@@ -27,7 +27,7 @@ background-color: rgb(127, 127, 127);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>0</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -39,7 +39,7 @@ background-color: rgb(127, 127, 127);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOUAT.png</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -48,10 +48,10 @@ background-color: rgb(127, 127, 127);</string>
    <widget class="QLabel" name="imagen_2">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>10</y>
-      <width>161</width>
-      <height>71</height>
+      <x>560</x>
+      <y>-10</y>
+      <width>171</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -61,7 +61,7 @@ background-color: rgb(127, 127, 127);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOFACULTAD.png</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOFACULTAD.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -70,10 +70,10 @@ background-color: rgb(127, 127, 127);</string>
    <widget class="QLabel" name="imagen_3">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>430</y>
-      <width>111</width>
-      <height>71</height>
+      <x>530</x>
+      <y>380</y>
+      <width>191</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -83,7 +83,7 @@ background-color: rgb(127, 127, 127);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>:/Ejercicios/anime.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

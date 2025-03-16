@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>555</width>
-    <height>324</height>
+    <width>565</width>
+    <height>378</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,8 +21,8 @@ background-color: rgb(181, 255, 164);</string>
    <widget class="QLabel" name="label_instruccion">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>40</y>
+      <x>40</x>
+      <y>60</y>
       <width>201</width>
       <height>31</height>
      </rect>
@@ -46,8 +46,8 @@ background-color: rgb(181, 255, 164);</string>
    <widget class="QLineEdit" name="input_cateto1">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>80</y>
+      <x>50</x>
+      <y>100</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -66,7 +66,7 @@ border-radius: 10px;
    <widget class="QLabel" name="label_resultado">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>170</x>
       <y>200</y>
       <width>131</width>
       <height>51</height>
@@ -82,8 +82,8 @@ border-radius: 10px;
    <widget class="QLineEdit" name="input_cateto2">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>130</y>
+      <x>50</x>
+      <y>150</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -101,8 +101,8 @@ border-radius: 10px;
    <widget class="QSlider" name="Slider_cateto1">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>80</y>
+      <x>270</x>
+      <y>100</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -129,8 +129,8 @@ border-radius: 10px;
    <widget class="QSlider" name="Slider_cateto2">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>130</y>
+      <x>270</x>
+      <y>150</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -157,7 +157,7 @@ border-radius: 10px;
    <widget class="QLabel" name="label_resultado_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>200</y>
       <width>111</width>
       <height>51</height>
@@ -170,19 +170,78 @@ border-radius: 10px;
      <string>Resultado:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOFACULTAD.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>555</width>
+     <width>565</width>
      <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../Archivos/Recursos.qrc"/>
+ </resources>
  <connections/>
 </ui>

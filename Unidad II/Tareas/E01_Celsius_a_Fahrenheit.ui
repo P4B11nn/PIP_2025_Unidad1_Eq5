@@ -28,8 +28,8 @@ background-color: rgb(127, 127, 127);</string>
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>261</width>
-      <height>71</height>
+      <width>221</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -39,7 +39,7 @@ background-color: rgb(127, 127, 127);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOUAT.png</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -49,7 +49,7 @@ background-color: rgb(127, 127, 127);</string>
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>0</y>
+      <y>-10</y>
       <width>161</width>
       <height>71</height>
      </rect>
@@ -61,29 +61,7 @@ background-color: rgb(127, 127, 127);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOFACULTAD.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="imagen_3">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>330</y>
-      <width>111</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>:/Ejercicios/anime.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOFACULTAD.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -92,8 +70,8 @@ background-color: rgb(127, 127, 127);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>146</y>
+      <x>280</x>
+      <y>106</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -112,8 +90,8 @@ background-color: rgb(127, 127, 127);</string>
    <widget class="QLineEdit" name="txt_valor">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>180</y>
+      <x>280</x>
+      <y>140</y>
       <width>261</width>
       <height>41</height>
      </rect>
@@ -139,8 +117,8 @@ border-radius: 15px;</string>
    <widget class="QSlider" name="horizontalSlider">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>180</y>
+      <x>40</x>
+      <y>140</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -152,8 +130,8 @@ border-radius: 15px;</string>
    <widget class="QLineEdit" name="txt_valor_2">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>250</y>
+      <x>280</x>
+      <y>210</y>
       <width>261</width>
       <height>41</height>
      </rect>
@@ -179,8 +157,8 @@ border-radius: 15px;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>260</y>
+      <x>40</x>
+      <y>220</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -194,6 +172,25 @@ border-radius: 15px;</string>
     </property>
     <property name="text">
      <string>GRADOS FAHRENHEIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>290</y>
+      <width>181</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

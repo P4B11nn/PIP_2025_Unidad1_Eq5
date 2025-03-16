@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
-    <height>411</height>
+    <width>547</width>
+    <height>446</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -85,10 +85,10 @@ border:2px solid rgb(170, 170, 255);
    <widget class="QSlider" name="slider_metros">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>70</y>
-      <width>101</width>
-      <height>291</height>
+      <x>430</x>
+      <y>80</y>
+      <width>91</width>
+      <height>321</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -158,8 +158,8 @@ border:2px solid rgb(170, 170, 255);
      <rect>
       <x>390</x>
       <y>0</y>
-      <width>131</width>
-      <height>51</height>
+      <width>141</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -172,7 +172,7 @@ border:2px solid rgb(170, 170, 255);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOFACULTAD.png</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOFACULTAD.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -186,7 +186,7 @@ border:2px solid rgb(170, 170, 255);
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>251</width>
+      <width>261</width>
       <height>51</height>
      </rect>
     </property>
@@ -200,7 +200,7 @@ border:2px solid rgb(170, 170, 255);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/LOGOUAT.png</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -209,13 +209,32 @@ border:2px solid rgb(170, 170, 255);
      <bool>false</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>531</width>
+     <width>547</width>
      <height>21</height>
     </rect>
    </property>

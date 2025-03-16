@@ -1,10 +1,40 @@
 <RCC>
-  <qresource prefix="Ejercicios">
-    <file>gato.jpg</file>
-    <file>LOGOFACULTAD.png</file>
+  <qresource prefix="ejercicios">
+    <file>amarillo.jpg</file>
+    <file>rojo.jpg</file>
+    <file>verde.png</file>
+    <file>anime.jpg</file>
+    <file>calificaciones.csv</file>
+    <file>calificaciones_con_nombre.csv</file>
+    <file>FIT_logo_vertical.png</file>
+    <file>GanaPc.png</file>
+    <file>image_1.jpg</file>
+    <file>image_2.jpg</file>
+    <file>image_3.jpg</file>
+    <file>image_4.png</file>
+    <file>image_5.jpg</file>
+    <file>image_6.jpg</file>
+    <file>image_7.jpg</file>
+    <file>image_8.jpg</file>
+    <file>ImagenGatoEuropeo.png</file>
+    <file>imgEq5.jpg</file>
+    <file>ImgEquipo.png</file>
+    <file>LED_OFF.png</file>
+    <file>LED_ON.png</file>
     <file>LOGOUAT.png</file>
-    <file>121d9b60085495e061aba4b229952d60.jpg</file>
-    <file>a828360b8a11383e13e2f8da995b61fa.jpg</file>
-    <file>Vagabond wallpaper.jpg</file>
+    <file>papel.png</file>
+    <file>papel_flipped.png</file>
+    <file>PCretador.png</file>
+    <file>piedra.png</file>
+    <file>piedra_flipped.png</file>
+    <file>Recursos.qrc</file>
+    <file>stickman_arm_left.png</file>
+    <file>stickman_arm_right.png</file>
+    <file>stickman_core.png</file>
+    <file>stickman_head.png</file>
+    <file>stickman_leg_left.png</file>
+    <file>stickman_leg_right.png</file>
+    <file>tijeras.png</file>
+    <file>tijeras_flipped.png</file>
   </qresource>
 </RCC>

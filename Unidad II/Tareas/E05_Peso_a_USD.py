@@ -13,7 +13,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         # Area de los Signals
         self.slider_pesos.setMinimum(00)
         self.slider_pesos.setMaximum(10000)
-        self.slider_pesos.setSingleStep(10)
+        self.slider_pesos.setSingleStep(1)
         self.slider_pesos.setValue(0)
         self.slider_pesos.valueChanged.connect(self.conversion_monedas)
         self.txt_pesos.setText("0")

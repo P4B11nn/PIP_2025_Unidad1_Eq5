@@ -9,7 +9,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
         # Área de los Signals
-        self.btn_temporizar.clicked.connect(self.temporizar2doPlano)
+        self.btn_temporizar.clicked.connect(self.temporizar)
 
         self.segundoPlano = QtCore.QTimer()
         self.segundoPlano.timeout.connect(self.controlSegundoPlano)
@@ -22,11 +22,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         if self.valorN == -1:
             self.segundoPlano.stop()
 
-    def temporizar2doPlano(self):
+    def temporizar(self):
         self.valorN = int(self.txt_temporizador.text())
         self.segundoPlano.start(500)
 
-    def temporizar(self):
+    def temporizar2doplano(self):
         valor = int(self.txt_temporizador.text())
         for i in range(valor, 0, -1):
             self.txt_temporizador.setText(str(i))

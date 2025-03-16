@@ -27,7 +27,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             self.input_cateto1.setText(f"{cateto1}")
             self.input_cateto2.setText(f"{cateto2}")
             hipotenusa = self.calcular_hipotenusa( cateto1, cateto2)
-            self.label_resultado.setText(f"{hipotenusa:.2f}")
+            self.label_resultado.setText(f"{hipotenusa:.2f}  m")
 
 
     def calcular_hipotenusa(self, cateto1, cateto2):
