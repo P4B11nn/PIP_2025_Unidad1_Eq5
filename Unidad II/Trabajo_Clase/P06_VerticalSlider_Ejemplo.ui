@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>805</width>
-    <height>565</height>
+    <width>843</width>
+    <height>461</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,7 +30,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Archivos/Recursos.qrc">:/Ejercicios/121d9b60085495e061aba4b229952d60.jpg</pixmap>
+     <pixmap>:/Ejercicios/121d9b60085495e061aba4b229952d60.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -58,10 +58,10 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>30</y>
-      <width>221</width>
-      <height>211</height>
+      <x>710</x>
+      <y>10</y>
+      <width>91</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -71,7 +71,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Archivos/Recursos.qrc">:/Ejercicios/a828360b8a11383e13e2f8da995b61fa.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -88,8 +88,8 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>181</width>
-      <height>271</height>
+      <width>281</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -99,7 +99,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="Archivos/Recursos.qrc">:/Ejercicios/Vagabond wallpaper.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -114,8 +114,8 @@
    <widget class="QLineEdit" name="txt_valor">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>390</y>
+      <x>380</x>
+      <y>200</y>
       <width>261</width>
       <height>41</height>
      </rect>
@@ -139,8 +139,8 @@ border-radius: 15px;</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>360</y>
+      <x>380</x>
+      <y>160</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -160,8 +160,8 @@ border-radius: 15px;</string>
    <widget class="QSlider" name="VerticalSlider">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>240</y>
+      <x>140</x>
+      <y>120</y>
       <width>81</width>
       <height>261</height>
      </rect>
@@ -170,13 +170,41 @@ border-radius: 15px;</string>
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>300</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="indent">
+     <number>-1</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>805</width>
+     <width>843</width>
      <height>21</height>
     </rect>
    </property>
@@ -184,7 +212,8 @@ border-radius: 15px;</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="Archivos/Recursos.qrc"/>
+  <include location="../Archivos/Recursos.qrc"/>
+  <include location="../Archivos/Recursos.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -16,7 +16,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         self.diccionarioDatos = {
             1: ("../Archivos/image_5.jpg", ["Gato", "4 meses", "Raton"]),
-            2: ("../Archivos/LOGOFACULTAD.png", ["Castor", "65 años", "Estudiar"]),
+            2: ("../Archivos/FIT_logo_vertical.png", ["Castor", "65 años", "Estudiar"]),
             3: ("../Archivos/LOGOUAT.png", ["Correcaminos", "75 años", "Superacion"])
         }
         self.indice = 1

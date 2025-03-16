@@ -15,9 +15,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.selectorImagen.valueChanged.connect(self.cambiaValor)
 
         self.diccionarioDatos = {
-            1: ("Unidad II/Archivos/image_5.jpg",["Gato", "4 meses", "Raton"]),
-            2: ("Unidad II/Archivos/LOGOFACULTAD.png", ["Castor", "65 años", "Estudiar"]),
-            3: ("/Archivos/LOGOUAT.png", ["Correcaminos", "75 años", "Superacion"])
+            1: ("../Archivos/image_5.jpg",["Gato", "4 meses", "Raton"]),
+            2: ("../Archivos/FIT_logo_vertical.png", ["Castor", "65 años", "Estudiar"]),
+            3: ("../Archivos/LOGOUAT.png", ["Correcaminos", "75 años", "Superacion"])
         }
         self.indice = 1
 
@@ -40,7 +40,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             self.txt_nombre.setText(nombre)
             self.txt_edad.setText(edad)
             self.txt_juguete.setText(juguete)
-            self.label.setPixmap(QtGui.QPixmap(self.diccionarioDatos[self.indice][0]))
 
     def cambiaValor(self):
         self.indice = self.selectorImagen.value()

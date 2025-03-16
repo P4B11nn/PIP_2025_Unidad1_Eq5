@@ -6,62 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>805</width>
-    <height>565</height>
+    <width>803</width>
+    <height>415</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>290</y>
-      <width>151</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/121d9b60085495e061aba4b229952d60.jpg</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="indent">
-     <number>-1</number>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>110</y>
-      <width>47</width>
-      <height>13</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>30</y>
-      <width>221</width>
-      <height>211</height>
+      <x>680</x>
+      <y>10</y>
+      <width>101</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -71,7 +30,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/a828360b8a11383e13e2f8da995b61fa.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -88,8 +47,8 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>181</width>
-      <height>271</height>
+      <width>301</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -99,7 +58,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/Ejercicios/Vagabond wallpaper.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/LOGOUAT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -114,8 +73,8 @@
    <widget class="QDial" name="Dial">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>330</y>
+      <x>110</x>
+      <y>170</y>
       <width>111</width>
       <height>121</height>
      </rect>
@@ -127,8 +86,8 @@
    <widget class="QLineEdit" name="txt_valor">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>390</y>
+      <x>330</x>
+      <y>230</y>
       <width>261</width>
       <height>41</height>
      </rect>
@@ -152,8 +111,8 @@ border-radius: 15px;</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>360</y>
+      <x>330</x>
+      <y>200</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -170,13 +129,41 @@ border-radius: 15px;</string>
      <string>Valor:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/imgEq5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="indent">
+     <number>-1</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>805</width>
+     <width>803</width>
      <height>21</height>
     </rect>
    </property>
@@ -185,7 +172,7 @@ border-radius: 15px;</string>
  </widget>
  <resources>
   <include location="../Archivos/Recursos.qrc"/>
-  <include location="Archivos/Recursos.qrc"/>
+  <include location="../Archivos/Recursos.qrc"/>
  </resources>
  <connections/>
 </ui>
